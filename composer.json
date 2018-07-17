@@ -3,6 +3,7 @@
     "description": "Helper to integrate any aplication build using Laravel Framework with iTop Combodo ITSM",
     "keywords": ["laravel","helper","REST","iTop","Combodo"],
     "type": "library",
+    "homepage": "https://github.com/AniltonMoraisJr/itop_rest_helper",
     "license": "MIT",
     "authors": [
         {
