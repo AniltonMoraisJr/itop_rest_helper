@@ -4,7 +4,7 @@ namespace AniltonMoraisJr\ItopRestHelper;
 
 class ItopRestHelper {
 	/* Consulte the ITOP COMBODO aplication passing the required parameters */
-	public function consultaAPIItop($object){
+	public function consultAPIItop($object){
 		$url = config('itopresthelper.URL_API_REST');
 
         $objectJSON = json_encode($object);
