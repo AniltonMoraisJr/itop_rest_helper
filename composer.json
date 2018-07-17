@@ -26,7 +26,7 @@
                 "AniltonMoraisJr\\ItopRestHelper\\ItopRestHelperProvider"
             ],
             "aliases": {
-                "Debugbar": "AniltonMoraisJr\\ItopRestHelper\\ItopRestHelperFacade"
+                "ItopRestHelper": "AniltonMoraisJr\\ItopRestHelper\\ItopRestHelperFacade"
             }
         }
     },

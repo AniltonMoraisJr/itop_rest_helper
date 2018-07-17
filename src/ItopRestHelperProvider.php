@@ -32,8 +32,8 @@ class ItopRestHelperProvider extends ServiceProvider
             __DIR__ . '/config/itopresthelper.php', 'itopresthelper'
         );
         //Publishing helper
-        App::bind('ItopRestHelper', function(){
-            return new ItopRestHelper;
+        \App::bind('ItopRestHelper', function(){
+            return new \AniltonMoraisJr\ItopRestHelper\ItopRestHelper;
         });
     }
 }
