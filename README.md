@@ -3,18 +3,18 @@
 
 ## To use, follow the instructions:
 
-1. Use the command above to install the package:
+* Use the command above to install the package:
 ```
 composer require aniltonmoraisjr/itopresthelper
 ```
-2. Use the follow command to publish the config file:
+* Use the follow command to publish the config file:
 ```
 php artisan vendor:publish
 ```
-3. Edit the values in the config file or create the variables in your .env file.
-´´´
-    URL_API_NETADMIN_REST = /*YOUR SERVICE DESK URL WITH /webservices/rest.php?version=1.0. Ex: 'http://servicedesk.com.br/webservices/rest.php?version=1.0'*/
-    URL_API_NETADMIN_FULL = /*YOUR SERVICE DESK URL. Ex: 'http://servicedesk.com.br'*/
-    USER_API_NETADMIN = /*YOUR Administrator user*/
-    PASS_API_NETADMIN = /*YOUR Administrator user password*/
-´´´
+* Edit the values in the config file or create the variables in your .env file.
+```
+URL_API_NETADMIN_REST = /*YOUR SERVICE DESK URL WITH /webservices/rest.php?version=1.0. Ex: 'http://servicedesk.com.br/webservices/rest.php?version=1.0'*/
+URL_API_NETADMIN_FULL = /*YOUR SERVICE DESK URL. Ex: 'http://servicedesk.com.br'*/
+USER_API_NETADMIN = /*YOUR Administrator user*/
+PASS_API_NETADMIN = /*YOUR Administrator user password*/
+```
